@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Icon" href="img/fork-and-knife.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="reviews.css">
+    <title>Reviews</title>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">  
+        <a href="#" class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </a>
+        <div class="logo">
+          <a href="index.html"> 
+            <img src="img/flaka_logo-removebg-preview.png" alt="Your Logo"></a>
+            <h2>FLAKA CLOUD <BR> RESTAURANT</h2>
+        </div>
+        <ul class="menu">   
+           <li><a href="index.html"> Home </a></li>
+            <li><a href="menu.html"> Menu </a></li>
+            <li><a href="about.html"> About </a></li> 
+            <li><a href="contact.html">Contact </a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul> 
+    </nav>  
+
+    <!-- Body Content -->
+    <div class="container">
+        <div class="wrapper">
+            <h1>Customer Reviews</h1>
+            <h3>Type your review here</h3>
+            <form action="#">
+                <div class="rating">
+                    <input type="text" name="rating" hidden>
+                    <i class='bx bx-star star'></i>
+                    <i class='bx bx-star star'></i>
+                    <i class='bx bx-star star'></i>
+                    <i class='bx bx-star star'></i>
+                    <i class='bx bx-star star'></i>  
+                </div>
+                <textarea name="opinion" id="" cols="30" rows="10" placeholder="Write your review here"></textarea>
+            </form>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button class="btn cancel">Cancel</button>
+            </div>
+        </div>
+
+         <div class="review">
+            <div class="reviewer">Lebza de Villan</div>
+            <div class="rating">★★★★★</div>
+            <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Customer 1"> 
+            <p>The food and customer service was excellent, I would definetly recommend this place to others.</p>
+        </div>
+        <div class="review">
+            <div class="reviewer">Siziwe Nkosi</div>
+            <div class="rating">★★★★☆</div>
+            <img src="https://randomuser.me/api/portraits/men/30.jpg" alt="Customer 2">
+            <p>I had a wonderful time with my friends and the food was nice.</p>
+        </div>
+        <div class="review">
+            <div class="reviewer">Phumzile Ndlovu</div>
+            <div class="rating">★★★★★</div>
+            <img src="https://randomuser.me/api/portraits/women/30.jpg" alt="Customer 3">
+            <p>I celebrated my birthday here and I am more than satisfied with the hospitality.</p>
+        </div>
+        <div class="review">
+            <div class="reviewer">Murendeni Glen</div>
+            <div class="rating">★★★★★</div>
+            <img src="https://randomuser.me/api/portraits/men/59.jpg" alt="Customer 4">
+            <p>I had a wonderful time with my family and the kids enjoyed the dessert, definetly coming back soon.</p>
+        </div>   
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <ul class="footer-nav">
+            <li>
+                <i class="fas fa-map-marker-alt"></i> <!-- Icon for address -->
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Tsweu+St,+Mamelodi+-+SAS,+Pretoria,+0122"
+                 target="_blank">Get Directions <br> Tsweu St, Mamelodi - SAS <br> Pretoria <br> 0122 </a>
+            </li>
+            <li>
+                <a href="mailto:flakacloud@info.co.za">
+                    <i class="fas fa-envelope"></i> flakacloud@info.co.za <br> </a>
+                <a href="tel:011 475 6543">  
+                    <i class="fas fa-phone"></i> 011 475 6543 <br></a>
+                <a href="tel:076 638 1455"> 
+                    <i class="fas fa-phone"></i> 076 638 1455</a>  <br>
+                    <a href="https://www.facebook.com/flakacloud/"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/flakacloud/"><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://twitter.com/Leseo_Stunts/status/1385455885959503873"><i class="fa-brands fa-twitter"></i> </a>
+                   <a href=""><i class="fa-brands fa-whatsapp"></i></a> 
+            </li>
+            <li>
+                <i class="sub_button"></i>
+                Subscribe to our newsletter <br>
+                <input id="emailInput" class="custom-input" type="text" placeholder="Enter your E-mail">
+                <button class="custom-button" type="button" id="submitButton">Submit</button><br>
+                <i class="fa-solid fa-arrow-right"></i>
+                <a href="reviews.html" class="rev">★★Reviews★★</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
