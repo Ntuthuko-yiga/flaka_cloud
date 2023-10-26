@@ -99,7 +99,7 @@ allStar.forEach((item, index)=> {
                 alert("Please select a meal.");
             }
 
-            // Check if the contact number is a valid phone number (you can add more complex validation)
+            // Check if the contact number is a valid phone number 
             if (!/^\d{10}$/.test(contactNumberInput.value)) {
                 isFormValid = false;
                 alert("Contact Number is not valid.");
